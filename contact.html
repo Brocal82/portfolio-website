@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Antonio Ruiz - Portfolio</title>
+        <link rel="icon" type="image/jpeg" href="images/Dali.jpg"/> <!--favicon-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> <!--tipografia-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+<!--  Header = Logo and main navigation -->
+    <header class="page-header divider">
+        <img src="images/portfolio.png" alt="logo" class="page-header__item" >
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+                        
+
+    <main class="main-contact">
+        <h1 class="title">Contact</h1>
+        <form action="">
+            <h2>Personal Data</h2>
+            <div>
+                <br/>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="name..." id="name" required>
+                </div>
+                <br/>
+                <div>
+                    <label for="surname">Surname</label>
+                    <input type="text" placeholder="Surname..." id="surname" required>
+                </div>
+                <br/>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email..." id="email" required>
+                </div>
+                <br/>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" min="0" required>
+                </div>
+                <br/>
+                <div>
+                    <label for="man">Man</label>
+                    <input type="radio" value="Man" id="man" name="gender" required>
+                    <label for="woman">Woman</label>
+                    <input type="radio" value="Woman" id="woman" name="gender" required>
+                </div>
+                <br/>
+                <div>
+                    <label for="my-input">Your Message</label>
+                    <textarea required id="my-input"></textarea>
+                </div>
+                <br/>
+                <input class="button__secondary button" type="submit" value="Send message">
+            </div>
+        </form>
+        <div class="link-media">    
+            <a href="mailto:antonioruizbrocal@gmail.com">Send a email</a>
+            <br>
+            <a href="tel:+49 1793490527">Phone call</a>
+            <br>
+            <a href="#">Video Call</a>
+        </div>
+    </main>
+            
+    
+    
+
+
+
+
+
+<footer class="page-footer">
+    <div>
+        <p>You can also find me on:</p>
+        
+        <a href="https://github.com/" target="_blank">
+            <img src="images/github.svg" alt="Github">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <img src="images/twitter.svg"  alt="Twitter">
+        </a>
+
+        <a href="http://www.linkdin.com" target="_blank">
+            <img src="images/linkedin.svg" alt="Linkedin">
+        </a>
+    </div>
+
+    <a href="#">Back to the top</a>
+</footer>
+
+    
+
+    
+            
+
+
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
