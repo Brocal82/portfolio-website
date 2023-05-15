@@ -34,7 +34,7 @@ h3 {                   /* I dont have any h3 yet */
 }
 
 a {
-    color: #000082;
+    color: #552fad;
 }
 
 nav ul li a {
@@ -98,7 +98,7 @@ button:focus {
 
 .button__primary {
     background-color: #008391;
-    color: undefined;
+    color: white;
 }
 
 .button__secondary {
@@ -130,8 +130,8 @@ button:focus {
 
 .page-header__item {
     -webkit-box-flex: 0;
-    -ms-flex: 0 1 200px;
-    flex: 0 1 200px;
+    -ms-flex: 0 1 100px;
+    flex: 0 1 100px;
 }
 
 .page-header__item:last-child {
@@ -157,7 +157,7 @@ button:focus {
 }
 
 .divider {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #ffc107;
     margin: 0 3px;
 }
 
