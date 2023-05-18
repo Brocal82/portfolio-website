@@ -175,6 +175,7 @@ button:focus {
     padding: 10px;
     background-color: var(--secondary-color);
     border-radius: 5px;
+    border: 2px solid black;
 }
 
 .shadow_box {
